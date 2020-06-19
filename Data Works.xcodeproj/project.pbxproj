@@ -9,21 +9,41 @@
 /* Begin PBXBuildFile section */
 		59136643249D0B0B006DA401 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59136642249D0B0B006DA401 /* AppDelegate.swift */; };
 		59136645249D0B0B006DA401 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 59136644249D0B0B006DA401 /* art.scnassets */; };
-		59136647249D0B0B006DA401 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59136646249D0B0B006DA401 /* ViewController.swift */; };
 		5913664A249D0B0B006DA401 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59136648249D0B0B006DA401 /* Main.storyboard */; };
 		5913664C249D0B15006DA401 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5913664B249D0B15006DA401 /* Assets.xcassets */; };
 		5913664F249D0B15006DA401 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5913664D249D0B15006DA401 /* LaunchScreen.storyboard */; };
+		5913665B249D0B5C006DA401 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59136656249D0B5B006DA401 /* GameViewController.swift */; };
+		5913665D249D0B5C006DA401 /* WritingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59136658249D0B5C006DA401 /* WritingViewController.swift */; };
+		5913665E249D0B5C006DA401 /* ExtensionGameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59136659249D0B5C006DA401 /* ExtensionGameVC.swift */; };
+		5913665F249D0B5C006DA401 /* ExtensionWritingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5913665A249D0B5C006DA401 /* ExtensionWritingViewController.swift */; };
+		5913666B249D0BEC006DA401 /* CreateFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59136665249D0BEC006DA401 /* CreateFile.swift */; };
+		5913666C249D0BEC006DA401 /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59136666249D0BEC006DA401 /* Notification.swift */; };
+		5913666D249D0BEC006DA401 /* LocalNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59136667249D0BEC006DA401 /* LocalNotificationManager.swift */; };
+		5913666E249D0BEC006DA401 /* RendererSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59136668249D0BEC006DA401 /* RendererSettings.swift */; };
+		5913666F249D0BEC006DA401 /* SensorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59136669249D0BEC006DA401 /* SensorManager.swift */; };
+		59136670249D0BEC006DA401 /* WritingBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5913666A249D0BEC006DA401 /* WritingBrain.swift */; };
+		59136672249D1E2C006DA401 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59136661249D0B7F006DA401 /* InitialViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5913663F249D0B0B006DA401 /* Data Works.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Data Works.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		59136642249D0B0B006DA401 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		59136644249D0B0B006DA401 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
-		59136646249D0B0B006DA401 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		59136649249D0B0B006DA401 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5913664B249D0B15006DA401 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5913664E249D0B15006DA401 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		59136650249D0B15006DA401 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59136656249D0B5B006DA401 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		59136658249D0B5C006DA401 /* WritingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WritingViewController.swift; sourceTree = "<group>"; };
+		59136659249D0B5C006DA401 /* ExtensionGameVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionGameVC.swift; sourceTree = "<group>"; };
+		5913665A249D0B5C006DA401 /* ExtensionWritingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionWritingViewController.swift; sourceTree = "<group>"; };
+		59136661249D0B7F006DA401 /* InitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
+		59136665249D0BEC006DA401 /* CreateFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateFile.swift; sourceTree = "<group>"; };
+		59136666249D0BEC006DA401 /* Notification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
+		59136667249D0BEC006DA401 /* LocalNotificationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalNotificationManager.swift; sourceTree = "<group>"; };
+		59136668249D0BEC006DA401 /* RendererSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RendererSettings.swift; sourceTree = "<group>"; };
+		59136669249D0BEC006DA401 /* SensorManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SensorManager.swift; sourceTree = "<group>"; };
+		5913666A249D0BEC006DA401 /* WritingBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WritingBrain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +76,49 @@
 		59136641249D0B0B006DA401 /* Data Works */ = {
 			isa = PBXGroup;
 			children = (
-				59136642249D0B0B006DA401 /* AppDelegate.swift */,
-				59136644249D0B0B006DA401 /* art.scnassets */,
-				59136646249D0B0B006DA401 /* ViewController.swift */,
-				59136648249D0B0B006DA401 /* Main.storyboard */,
-				5913664B249D0B15006DA401 /* Assets.xcassets */,
-				5913664D249D0B15006DA401 /* LaunchScreen.storyboard */,
+				59136671249D0BFD006DA401 /* Model */,
+				59136660249D0B7F006DA401 /* Controller */,
+				59136662249D0BB9006DA401 /* View */,
 				59136650249D0B15006DA401 /* Info.plist */,
 			);
 			path = "Data Works";
+			sourceTree = "<group>";
+		};
+		59136660249D0B7F006DA401 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				59136642249D0B0B006DA401 /* AppDelegate.swift */,
+				59136661249D0B7F006DA401 /* InitialViewController.swift */,
+				59136656249D0B5B006DA401 /* GameViewController.swift */,
+				59136659249D0B5C006DA401 /* ExtensionGameVC.swift */,
+				59136658249D0B5C006DA401 /* WritingViewController.swift */,
+				5913665A249D0B5C006DA401 /* ExtensionWritingViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		59136662249D0BB9006DA401 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				59136644249D0B0B006DA401 /* art.scnassets */,
+				5913664B249D0B15006DA401 /* Assets.xcassets */,
+				59136648249D0B0B006DA401 /* Main.storyboard */,
+				5913664D249D0B15006DA401 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		59136671249D0BFD006DA401 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				59136665249D0BEC006DA401 /* CreateFile.swift */,
+				59136666249D0BEC006DA401 /* Notification.swift */,
+				59136667249D0BEC006DA401 /* LocalNotificationManager.swift */,
+				59136668249D0BEC006DA401 /* RendererSettings.swift */,
+				59136669249D0BEC006DA401 /* SensorManager.swift */,
+				5913666A249D0BEC006DA401 /* WritingBrain.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +193,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59136647249D0B0B006DA401 /* ViewController.swift in Sources */,
+				5913665D249D0B5C006DA401 /* WritingViewController.swift in Sources */,
+				5913666B249D0BEC006DA401 /* CreateFile.swift in Sources */,
+				5913665E249D0B5C006DA401 /* ExtensionGameVC.swift in Sources */,
+				59136672249D1E2C006DA401 /* InitialViewController.swift in Sources */,
+				5913666C249D0BEC006DA401 /* Notification.swift in Sources */,
+				59136670249D0BEC006DA401 /* WritingBrain.swift in Sources */,
+				5913666E249D0BEC006DA401 /* RendererSettings.swift in Sources */,
+				5913665B249D0B5C006DA401 /* GameViewController.swift in Sources */,
+				5913665F249D0B5C006DA401 /* ExtensionWritingViewController.swift in Sources */,
+				5913666F249D0BEC006DA401 /* SensorManager.swift in Sources */,
+				5913666D249D0BEC006DA401 /* LocalNotificationManager.swift in Sources */,
 				59136643249D0B0B006DA401 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
